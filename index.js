@@ -53,9 +53,3 @@ if (typeof module !== 'undefined' && module.exports) {
         removeElement
     };
 }
-
-changeHeadingText();
-changeBoxColor();
-addNewItem();
-highlightParagraph();
-removeElement();
