@@ -4,7 +4,7 @@ const { createElement } = require("react");
  * Selects the element with the id 'main-heading' and changes its text content to 'DOM Manipulation Challenge'.
  */
 function changeHeadingText() {
-  let heading = document.getElementById('main-heading');
+  const heading = document.getElementById('main-heading');
   heading.textContent = 'DOM Manipulation Challenge';
 }
 
