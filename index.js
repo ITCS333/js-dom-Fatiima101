@@ -1,10 +1,9 @@
-const { createElement } = require("react");
 
 /**
  * Selects the element with the id 'main-heading' and changes its text content to 'DOM Manipulation Challenge'.
  */
 function changeHeadingText() {
-  const heading = document.getElementById('main-heading');
+  let heading = document.getElementById('main-heading');
   heading.textContent = 'DOM Manipulation Challenge';
 }
 
@@ -55,3 +54,8 @@ if (typeof module !== 'undefined' && module.exports) {
     };
 }
 
+changeHeadingText();
+changeBoxColor();
+addNewItem();
+highlightParagraph();
+removeElement();
